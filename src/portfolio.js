@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Meghana Muppasani",
+  title: "Hi all, I'm Meghana Muppasani",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀 and lifelong learner, passionate about building scalable web applications and solving real-world problems."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1kO8iJEvcuyX45F6xrxV8ZAtTXDIacA46/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/MeghanaMuppasani",
+  linkedin: "https://www.linkedin.com/in/meghana-muppasani/",
+  gmail: "meghanamuppasani@gmail.com",
+  gitlab: "https://gitlab.com/meghanamuppasani",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,17 +45,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
-  ],
+title: "What I Do",
+
+subTitle: "Full Stack Developer with a passion for building scalable web applications, solving real-world problems, and continuously learning modern technologies.",
+
+skills: [
+  emoji("⚡ Build responsive and user-friendly web applications using modern frontend technologies"),
+  emoji("⚡ Develop secure and scalable backend services with REST APIs and database integration"),
+  emoji("⚡ Deploy and manage applications using cloud platforms such as AWS, and Vercel")
+],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -89,10 +84,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -103,10 +94,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
@@ -126,23 +113,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      schoolName: "Lakireddy Bali Reddy College of Engineering",
+      logo: "https://th.bing.com/th/id/R.99ddd0dae795b39d41e95b2b6dac85d6?rik=c0bEfn%2fvvdYqyg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-xvksKCnIQ98%2fU_XfxrYx_9I%2fAAAAAAAAACw%2f81V3Z0XBs68%2fs1600%2fLakireddy%252BBalireddy%252BCollege(LBRCE)%252B%252BLogo.jpg&ehk=dn0p7d6GOCSLXj05M8laCFfNBN7Pngf0d2JPuUh32xE%3d&risl=&pid=ImgRaw&r=0",
+      subHeader: "Bachelors of Technology (Computer Science and Engineering)",
+      duration: "September 2022 - April 2026",
+      desc: "Building a strong foundation in computer science through hands-on projects, programming, and emerging technologies.",
+      descBullets: ["Computer Science and Engineering student.",
+"Maintaining a CGPA of 8.81 while actively participating in technical projects and internships."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Narayana Junior College",
+      logo: "https://tse4.mm.bing.net/th/id/OIP.6s2CAxfP7yFApX0xksXzpQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      subHeader: "Intermediate (PMC Stream)",
+      duration: "September 2020 - April 2022",
+      desc: "Pursued the PMC stream, gaining a solid understanding of mathematics and science while developing analytical and critical thinking skills.",
+      descBullets: [
+        "Qualified in JEE Mains and EAMCET-AP Entrance tests"
+      ]
     }
   ]
 };
@@ -157,11 +145,11 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Machine Learning/Data Science",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Cloud/Databases",
       progressPercentage: "60%"
     }
   ],
@@ -174,29 +162,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Data Analytics Intern",
+      company: "DataValley Inc.",
+      companylogo: "https://tse2.mm.bing.net/th/id/OIP.WCRzmB5KIq-NF2SDTig5BAHaHa?r=0&w=900&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+      date: "Dec 2025 – Mar 2026",
+  desc: "Worked on AI-driven data analytics solutions by collecting, processing, and analyzing large datasets to extract meaningful business insights using Python and machine learning techniques.",
+  descBullets: [
+    "Performed data cleaning, preprocessing, and exploratory data analysis (EDA) using Python, Pandas, and NumPy.",
+    "Built interactive dashboards and visualizations with Power BI and Matplotlib to support data-driven decision making.",
+    "Applied machine learning algorithms for predictive analytics and evaluated model performance using Scikit-learn."
+  ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "AI & Machine Learning Intern",
+      companylogo : "https://tse4.mm.bing.net/th/id/OIP.7kfQR0VGuucL3hpI_NkJ8wHaHD?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+      company: "APSSDC-IBM (Remote)",
+  date: "May 2023 – Jun 2023",
+  desc: "Built machine learning models using Python and Scikit-learn to analyze datasets and derive meaningful insights.",
+  descBullets: [
+    "Performed data preprocessing, feature engineering, and exploratory data analysis (EDA).",
+    "Developed and evaluated machine learning models using Scikit-learn.",
+    "Visualized data trends and model performance using Matplotlib and Pandas."
+  ]
     }
   ]
 };
@@ -205,38 +192,29 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: false,
+  display: false
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME PROJECTS I WORKED ON TO LEARN AND CODE",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
+      image: "https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?cs=srgb&dl=pexels-anush-1229356.jpg&fm=jpg",
+      projectName: "FitNess",
+      projectDesc:
+"Developed a responsive fitness web application featuring workout plans, diet guidance, and an intuitive user interface.",
         //  you can add extra buttons here.
-      ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2023/12/deepfake-freepik-1701780437.jpg",
+      projectName: "Deepfake Detection in Twitter Using Linguistic Embeddings",
+      projectDesc:
+"Developed a deep learning model for detecting deepfake text on Twitter using linguistic embeddings and natural language processing techniques.",
+        //  you can add extra buttons here.
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -248,55 +226,43 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Amazon Certified Cloud Practitioner",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Successfully Completed the Cloud Practitioner Certification and gained knowledge on cloud systems.",
+      image: "https://freepnglogo.com/images/all_img/amazon-web-services-logo-d111.png",
+      imageAlt: "AWS Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View my Certification",
+          url: "https://drive.google.com/file/d/1myVWrOTVlLIt2LgrTIp3fLIQwP1rZXiB/view?usp=drive_link"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Servicenow Certified System Adminstrator",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Successfully Completed System Adminstrator Certification powered by Servicenow",
+      image: "https://1000logos.net/wp-content/uploads/2021/09/ServiceNow-Logo-2048x1288.png",
+      imageAlt: "Servicenow Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View My Certification",
+          url: "https://drive.google.com/file/d/1rsi6l4LopB_r2qdi6zQuihluZt4ZrQ1p/view?usp=drive_link"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Android Developer Virtual Internship",
+      subtitle: "Completed Certifcation from AICTE and Google for Android App Development",
+      image: "https://freepnglogo.com/images/all_img/google-g-logo-85b2.png",
+      imageAlt: "Google Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", url: "https://drive.google.com/file/d/1t1aiefdPtxU9PW7qGsJ38voyNL8NOB_c/view?usp=sharing"}
       ]
     }
   ],
@@ -306,55 +272,17 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Research",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "With Love for Developing cool stuff, I love to write what I have learnt.",
+  displayMediumBlogs: false, // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://ieeexplore.ieee.org/abstract/document/11483693",
+      title: "Deepfake Text Detection on Twitter Using Linguistic Embeddings and Deep Learning",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "The increasing use of deepfake text postings on social networking sites, specifically Twitter, has introduced a major threat because of the ability to spread misinformation, automated propaganda, and deceptive online activities. the paper introduces a deep leaning-based solution to detect deepfake text using linguistic embeddings and sophisticated classifiers."
     }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -372,18 +300,27 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-9347202879",
+  email_address: "meghanamuppasani@gmail.com"
+};
+
+
+const podcastSection = {
+  display: false
+};
+
+const talkSection = {
+  display: false
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -398,8 +335,8 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
-  talkSection,
   podcastSection,
+  talkSection ,
   contactInfo,
   twitterDetails,
   isHireable,
