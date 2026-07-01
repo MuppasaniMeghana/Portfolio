@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
@@ -11,10 +11,11 @@ import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
+import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
-import { splashScreen } from "../portfolio";
-import { StyleProvider } from "../contexts/StyleContext";
-import { useLocalStorage } from "../hooks/useLocalStorage";
+import {splashScreen} from "../portfolio";
+import {StyleProvider} from "../contexts/StyleContext";
+import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 
 const Main = () => {
@@ -29,7 +30,9 @@ const Main = () => {
         () => setIsShowingSplashAnimation(false),
         splashScreen.duration
       );
-      return () => clearTimeout(splashTimer);
+      return () => {
+        clearTimeout(splashTimer);
+      };
     }
   }, []);
 
@@ -39,7 +42,7 @@ const Main = () => {
 
   return (
     <div className={isDark ? "dark-mode" : null}>
-      <StyleProvider value={{ isDark, changeTheme }}>
+      <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
         {isShowingSplashAnimation && splashScreen.enabled ? (
           <SplashScreen />
         ) : (
@@ -54,6 +57,7 @@ const Main = () => {
             <StartupProject />
             <Achievement />
             <Blogs />
+            <Profile />
             <Footer />
             <ScrollToTopButton />
           </>
